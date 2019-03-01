@@ -168,10 +168,12 @@ Route::get('/error-login',function(){
 
 Route::get('info-me','ExampleController@info')->name('info-me');
 
+Route::get('/result-ok1',function(){
+	return "OK1";
+});
 
 
-
-
+//note
 
 
 
